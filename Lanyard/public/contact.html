@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Lanyard</title>
+  <meta name="description" content="Contact Lanyard for bookings and partnerships." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Contact — Lanyard" />
+  <meta property="og:description" content="Contact Lanyard for bookings and partnerships." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lanyardmedia.net/contact.html" />
+  <meta property="og:image" content="https://lanyardmedia.net/images/2party.JPG" />
+  <meta property="og:image:alt" content="Lanyard crowd" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact — Lanyard" />
+  <meta name="twitter:description" content="Contact Lanyard for bookings and partnerships." />
+  <meta name="twitter:image" content="https://lanyardmedia.net/images/2party.JPG" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png?v=3" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png?v=3" />
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png?v=3" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="container nav">
+      <a class="brand" href="index.html">
+        <img src="/icons/Lanyard_transparent.png" alt="Lanyard logo" />
+        <span class="name">Lanyard</span>
+      </a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="container section fade-in">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Use the form below for booking inquiries, partnerships, or general questions.</p>
+      <form id="contactForm" class="card">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <input type="tel" name="phone" placeholder="Your phone (optional)" />
+        <textarea name="reason" rows="6" placeholder="Reason for contacting us" required></textarea>
+        <input type="text" name="trap" class="trap" tabindex="-1" autocomplete="off" />
+        <button type="submit">Send message</button>
+        <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      <a href="mailto:admin@welcomeweekhq.com">admin@welcomeweekhq.com</a> ·
+      <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">
+        <img src="/images/instalogo.webp" alt="Instagram" class="ig" />
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
+
